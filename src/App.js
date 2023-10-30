@@ -1,12 +1,11 @@
 import "./App.css";
-import ColorRenderer from "./component/ColorRenderer";
+import DogPics from "./component/DogPics";
 
 function App() {
   return (
     <div className="App">
       <h2>
-        Use the Color component to render each item in the colors array on the
-        page!
+       <DogPics />
       </h2>
     </div>
   );
