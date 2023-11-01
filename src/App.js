@@ -1,11 +1,11 @@
 import "./App.css";
-import DogPics from "./component/DogPics";
+import ShoppingCart from "./component/ShoppingCart";
 
 function App() {
   return (
     <div className="App">
       <h2>
-       <DogPics />
+       <ShoppingCart />
       </h2>
     </div>
   );
